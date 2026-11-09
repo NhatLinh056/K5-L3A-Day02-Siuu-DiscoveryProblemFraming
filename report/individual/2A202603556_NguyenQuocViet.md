@@ -173,7 +173,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Qua quá trình thực hiện bài tập, tôi nhận ra rằng việc xác định đúng vấn đề quan trọng hơn việc nghĩ ra một ý tưởng công nghệ thật thú vị. Ban đầu, tôi thường nghĩ đến việc sử dụng AI để giải quyết các vấn đề trong học tập. Tuy nhiên, sau khi phân tích các tình huống thực tế, tôi nhận thấy cần hiểu rõ người dùng đang gặp khó khăn gì và tại sao vấn đề đó xảy ra.
+Tôi không có bài học cụ thể nào rút ra khi nghe top 3 problems của các bạn khác.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
