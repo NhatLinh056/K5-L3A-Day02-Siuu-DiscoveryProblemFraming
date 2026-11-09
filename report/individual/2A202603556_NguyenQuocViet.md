@@ -142,15 +142,15 @@ HIỆN TẠI — 20–60 phút cho một lỗi khó (ước tính)
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Pitch ý tưởng trợ lý AI gỡ lỗi cho sinh viên lập trình; đặt câu hỏi làm sao giúp người học hiểu lỗi thay vì phụ thuộc hoàn toàn vào AI. | Nhóm có câu hỏi cụ thể để phản biện giá trị học tập và nguy cơ phụ thuộc AI. |
-| Phản biện bài của bạn khác | Chưa cung cấp câu hỏi phản biện tôi đã đặt. | Cần bổ sung nếu có tham gia phản biện candidate của thành viên khác. |
-| Nhận phản biện | AI lưu ý lịch/nhắc hạn và bảng nhiệm vụ có thể đủ; mã sửa sẵn có thể khiến sinh viên chép mà không hiểu. | Tôi đồng ý cả ba điểm; bổ sung yêu cầu đo baseline, so sánh phương án đơn giản trước, và giữ tiêu chí hỗ trợ học tập. |
-| Gom cluster / cây OST | Phần này do nhóm trưởng chủ trì; tôi chưa cung cấp đóng góp riêng ở bước gom cluster/OST. | Nhóm gom 12 candidate thành 3 cluster và dựng cây OST; cần bổ sung đóng góp cá nhân cụ thể nếu có. |
-| Chọn candidate problem | Nhóm chọn bài toán giúp người mới hiểu cấu trúc và luồng xử lý codebase; tôi chưa nêu phần việc cá nhân trong quyết định chọn. | Candidate nhóm được chọn làm cơ sở cho kiểm chứng và thiết kế giải pháp. |
+| Phản biện bài của bạn khác | Hỏi về báo cáo tuần: dashboard Jira/GitHub Projects đã đủ chưa; lịch nội dung: Buffer/Hootsuite đã giải quyết lên lịch chưa; câu hỏi lặp lại: quick reply/snippet đã đủ chưa. | Giúp nhóm so sánh từng pain với No AI/Rule trước khi đề xuất AI. |
+| Nhận phản biện | Hoàng Gia Khiêm hỏi làm sao bảo đảm trợ lý gỡ lỗi giúp sinh viên hiểu bản chất lỗi thay vì chỉ chép đáp án; AI cũng lưu ý lịch/nhắc hạn và bảng nhiệm vụ có thể đủ. | Tôi đồng ý; bổ sung yêu cầu so sánh phương án đơn giản trước và giữ mục tiêu học tập trong card gỡ lỗi. |
+| Gom cluster / cây OST | Tham gia hội tụ và phản biện 12 candidate; Lê Nhật Linh chủ trì gom 3 cluster và dựng khung OST. | Nhóm tập trung vào outcome onboarding 180 → 90 phút và ba opportunity liên quan đến cấu trúc repo, trace use-case, kiểm chứng luồng. |
+| Chọn candidate problem | Tham gia thống nhất chọn onboarding codebase sau khi so sánh candidate của nhóm. | Nhóm chọn vấn đề có quy trình và bottleneck định lượng được, đồng thời có thể so sánh No AI/Rule/Workflow/Agent. |
 | Kiểm chứng / research | Chạy quick-poll với 8 sinh viên; 7/8 (87,5%) cho biết gặp khó khăn khi trace luồng code qua nhiều file. | Có tín hiệu định lượng ban đầu ủng hộ vấn đề; mẫu nhỏ, thuận tiện, cần ghi cách hỏi và tránh khái quát cho mọi sinh viên. |
-| Quy trình nhóm | Phần vẽ quy trình do Hoàng Gia Khiêm phụ trách; tôi chưa nêu đóng góp trực tiếp vào hai sơ đồ. | Nhóm có hai sơ đồ Mermaid cho quy trình hiện tại 180 phút và quy trình tương lai 90 phút, cùng fallback. |
+| Quy trình nhóm | Hỗ trợ Hoàng Gia Khiêm vẽ hai sơ đồ Mermaid trước/sau và nhánh fallback. | Quy trình hiện tại 180 phút, tương lai mục tiêu 90 phút; fallback dùng Call Hierarchy IDE và 10 phút mentor pair. |
 | Problem Statement | Phần soạn v0/v1 do nhóm trưởng phụ trách; tôi chưa nêu đóng góp trực tiếp. | Bài toán nhóm dùng mục tiêu onboarding 180 → 90 phút, hỏi mentor ≤ 1 lần và boundary không để AI tự viết code. |
 | Mức can thiệp AI | Soạn AI Canvas, trả lời hai câu hỏi Google PAIR và viết bốn tiêu chí Eval: Grounding, Accuracy, Latency, Completeness. | Cụ thể hóa cách đánh giá; các ngưỡng và bộ dữ liệu kiểm tra cần được ghi trong báo cáo nhóm. |
-| Quyết định | Nhóm trưởng chốt Go pilot trên 2 repo; tôi phụ trách kiểm chứng/eval, không phải người chốt quyết định. | Ngưỡng dừng nhóm nêu: hallucination >15% hoặc mức giảm thời gian <40 phút thì dừng. |
+| Quyết định | Hỗ trợ Đặng Thanh Hải đánh giá bốn rủi ro và điều kiện pilot; nhóm thống nhất Go pilot trên 2 repo. | Kill switch: hallucination >15% hoặc thời gian tiết kiệm <40 phút thì dừng và quay về giải pháp No AI. |
 
 ---
 
