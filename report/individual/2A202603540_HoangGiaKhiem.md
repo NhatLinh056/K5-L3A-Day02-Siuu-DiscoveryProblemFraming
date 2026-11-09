@@ -140,15 +140,15 @@ HIỆN TẠI — 35 phút/lần bị trả về × 2–3 lần/tuần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Pitch Problem Card | Pitch 3 card: #7 Trả lời câu hỏi trùng lặp (3,5'/4' mỗi câu), #8 Soạn biên bản họp (12'/30' mỗi buổi nghe lại ghi âm), #9 Tự kiểm tra văn bản trước khi gửi duyệt (15'/bản). | Card #7, #8 được xếp vào cluster C (giao tiếp lặp lại), #9 vào cluster B (soát lỗi văn bản). Không card nào vào shortlist vì phần lớn giải được bằng No AI/Rule (quick reply, checklist), ít "đất" để so sánh 4 mức can thiệp. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: • Linh #1: "AI chỉ giảm bước 5 được 35', vậy 55' còn lại để đạt 180' → 90' giảm ở đâu?" • Hải #6: "Nếu comment ít (vài chục cái), dùng Google Sheets filter có nhanh hơn không?" • Việt #12: "Làm sao đảm bảo AI giải thích bản chất lỗi chứ không chỉ đưa đáp án chép vẹt?" |
+| Nhận phản biện | Câu hỏi tôi nhận được: • Việt (#7): "Đã có quick reply/snippet trên Zalo/Slack, sao cần AI nháp lại từng câu?" • Linh (#8): "Ghi âm cuộc họp đưa lên AI có vi phạm bảo mật nội bộ không?" • Hải (#9): "Tiêu chí bắt lỗi của sếp có định lượng thành rule rõ ràng được không?" | Tôi đã sửa gì: thừa nhận #7 có thể giải phần lớn bằng No AI (FAQ + snippet) nên đề xuất chạy thử phương án không AI 1 tuần làm mốc so sánh; #9 chuyển cảm nhận sang "Rule (checklist) trước, Workflow sau". Vì vậy tôi đồng ý không đưa card của mình vào shortlist. |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
+| Kiểm chứng / research | Research (CP4): lập bảng research 3 công cụ Cursor (Codebase Indexing), GitHub Copilot Chat (@workspace), Mintlify (Auto Documentation) kèm link; chỉ ra mỗi công cụ giải bước nào, điểm mạnh, khoảng trống/rủi ro và bài học cho nhóm. | Tìm ra khoảng trống: thiếu sơ đồ luồng trực quan theo use-case, dễ hallucinate khi trace qua các tầng trừu tượng → nhóm rút ra yêu cầu đầu ra là Call-Graph, bắt buộc có HITL và Fallback (Mục 3.3). |
+| Quy trình nhóm | Quy trình trước/sau: vẽ 2 sơ đồ Mermaid (hiện tại 180', tương lai 90'), gắn nhãn Rule / AI / HITL cho từng bước, bổ sung nhánh Fallback (Call Hierarchy IDE + pair 10' mentor), lập bảng Before/After. | Xác định bottleneck bước 5 (60', 33% tổng thời gian); quy trình tương lai có đường lui khi AI sai (Mục 4.1–4.3). |
 | Problem Statement | | |
-| Mức can thiệp AI | | |
+| Mức can thiệp AI | Hỗ trợ Linh ở CP6: dùng kết quả research để lập luận vì sao No AI (tài liệu tĩnh kiểu Mintlify) và Rule (AST) không đủ; đề xuất giữ Rule AST ở bước 3 làm bước lọc file trước khi đưa vào LLM. | Nhóm chọn AI Workflow kết hợp Rule AST ở bước 3, không chọn Agent (Mục 6.2). |
 | Quyết định | | |
 
 ---
@@ -157,12 +157,12 @@ HIỆN TẠI — 35 phút/lần bị trả về × 2–3 lần/tuần
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
+| CP1 Scan | Nhờ AI gợi ý thêm vấn đề theo 4 lăng kính (lặp lại, tốn thời gian, đọc & tổng hợp, pain từ người khác) | Nhắc được các lăng kính tôi dễ bỏ qua, nhất là "pain từ người khác" (ý #6, #7) | Gợi ý chung chung, không gắn với việc thật của tôi, không có số liệu | Chỉ giữ những vấn đề tôi thực sự gặp và tự ước lượng được thời gian/tần suất; bỏ các ý không có dấu hiệu thật |
+| CP2 Problem Card | Cho AI đóng vai người phản biện Problem Card #1 (câu hỏi trùng lặp) | Chỉ ra số liệu 15 câu/ngày, 3–5phut/câu chỉ là ước lượng; FAQ + quick reply có thể đã đủ; câu trả lời mẫu dễ lỗi thời khi giá/hạn thay đổi | Gợi ý làm chatbot tự trả lời thẳng cho khách, bỏ qua rủi ro sai giá/hạn | Thêm kế hoạch đếm và bấm giờ thật 1 tuần, chạy thử phương án không AI làm mốc, giữ boundary "tôi kiểm tra trước khi gửi" (bảng "AI đã phản biện card thế nào") |
+| CP4 Research | Hỏi AI các công cụ hiện có hỗ trợ đọc hiểu codebase và so sánh tính năng | Liệt kê nhanh các ứng viên (Cursor, Copilot Chat, Mintlify) và cách tiếp cận của từng công cụ | Mô tả tính năng và giá chung chung, có chỗ có thể đã cũ; nhận định "không làm được" nhiều khi chưa có căn cứ | Tự kiểm tra lại trên trang chính thức và gắn link thật, chỉ giữ khoảng trống liên quan đến quy trình của nhóm (bước nào, rủi ro gì) |
+| CP5 Quy trình | Nhờ AI chuyển quy trình 7 bước thành cú pháp Mermaid và rà lỗi sơ đồ | Viết nhanh cú pháp flowchart, style tô màu bottleneck, nhánh rẽ điều kiện | Sơ đồ tương lai bản đầu không có nhánh xử lý khi AI sai; thời gian các bước đặt theo kỳ vọng, không có căn cứ | Tự thêm nhánh Fallback (Call Hierarchy IDE + pair 10' mentor), gắn nhãn Rule/AI/HITL từng bước, cân lại thời gian để tổng đúng 90' |
 | CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP6 Mức can thiệp / quyết định | Hỏi AI so sánh 4 mức No AI / Rule / Workflow / Agent cho bài của nhóm | Giúp lập bảng so sánh có cột "đủ khi nào" và "rủi ro" rõ ràng | Có xu hướng đề cao mức Agent (tự chạy debugger, tự sửa code, tự tạo PR), đánh giá thấp rủi ro hallucination và việc dev mới mất kiểm soát | Dựa vào Snapshot #2 (sinh viên mất 45' vì AI bịa hàm) để chọn Augment, mức Workflow; giữ Rule AST ở bước 3 để lọc scope trước khi đưa vào LLM |
 
 ---
 
@@ -171,21 +171,25 @@ HIỆN TẠI — 35 phút/lần bị trả về × 2–3 lần/tuần
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+Điều tôi nhận ra đầu tiên là nhiều vấn đề nghe rất "đau" nhưng thật ra đã có công cụ giải rồi. Khi Việt pitch bài theo dõi hạn nộp và Hải pitch bài lên lịch đăng bài đa kênh, câu hỏi phản biện ngay lập tức là Google Calendar, LMS hay Buffer, Hootsuite đã làm được việc đó. Nghe xong tôi quay lại nhìn card của mình (trả lời câu hỏi trùng lặp) và thấy nó cũng có cùng điểm yếu: quick reply/snippet có thể đã đủ. Điều thứ hai tôi học được từ bài của Linh là cách bóc bottleneck ra thành số phút cụ thể (60' trên tổng 180'). Card của tôi chỉ ghi "3–5 phút/câu", không có tổng quy trình rõ ràng nên khi so sánh thì kém thuyết phục hơn hẳn.
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+Có. Lúc dựng cây OST, nhóm viết ra những nhánh như "Chatbot AI trả lời mọi thắc mắc về mã nguồn", "Plugin tự sinh tài liệu code" hay "Dashboard trực quan hóa kiến trúc". Khi đọc lại thì cả nhóm thấy đó là tính năng, không phải nhu cầu của dev mới, nên gạch bỏ và viết lại thành opportunity: khó xác định luồng giữa các tầng, tài liệu lỗi thời, mentor bận. Lần thứ hai là ý tưởng "AI đọc và tóm tắt toàn bộ repo". Ý này chỉ bị loại sau khi phỏng vấn, khi bạn sinh viên kể chuyện AI bịa ra hàm helper không tồn tại. Từ đó nhóm thu hẹp lại thành trace một use-case cụ thể và bắt buộc trích dẫn filepath:linenumber.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Có. Khi tôi pitch card trả lời câu hỏi trùng lặp, Việt hỏi: "Đã có quick reply/snippet trên Zalo/Slack, sao cần AI nháp lại từng câu?". Ban đầu tôi nghĩ AI cần thiết vì mỗi người hỏi diễn đạt một kiểu. Nhưng khi trả lời thì tôi nhận ra mình chưa thử phương án không AI một lần nào, và con số 15 câu/ngày cũng chỉ là ước lượng. Tôi đổi ý: phải chạy file FAQ + quick reply một tuần để làm mốc trước, rồi mới bàn tới AI. Đây cũng là một lý do tôi đồng ý chọn bài codebase của Linh, vì bài đó có lý do rõ hơn tại sao No AI và Rule không đủ.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Có. Lúc research Cursor và Copilot, tôi nghĩ chỉ cần công cụ trả lời kèm trích dẫn file là dev sẽ tin dùng. Phỏng vấn #2 cho thấy ngược lại: bạn sinh viên mất thêm 45 phút vì tin một hàm do AI bịa ra, và nói rằng nếu AI không chỉ đúng dòng code thì thà tự lội code còn nhanh hơn. Tôi bất ngờ vì nỗi sợ AI sai lại mạnh hơn nhu cầu tiết kiệm thời gian. Nhờ vậy, trong sơ đồ tương lai tôi phải thêm bước đặt breakpoint (HITL) và nhánh Fallback sang Call Hierarchy + 10' pair với mentor. Ngoài ra có 1/8 bạn trong poll cho rằng chỉ cần sơ đồ kiến trúc tĩnh là đủ, nên phương án No AI không thể gạt đi quá nhanh.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Khó nhất là phần Success Metric. Mục tiêu 180' xuống 90' nghe rất đẹp, nhưng chính tôi đã hỏi Linh: "AI chỉ giảm bước 5 được 35', vậy 55' còn lại giảm ở đâu?". Nhóm phải chia lại từng bước (định vị file nhanh hơn 30', trace có sơ đồ 45', ít thử sai và ít hỏi mentor 15') thì con số mới có lý. Khi vẽ sơ đồ tương lai, tôi phải cộng lại thời gian các bước để tổng khớp đúng 90'. Phần Boundary cũng khó, vì "AI không được viết code" là quá chung chung, phải viết thành điều kiện kiểm tra được như filepath:linenumber và bắt buộc đặt breakpoint.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Nếu làm lại, tôi sẽ bấm giờ thật thay vì ước lượng, cả với card của tôi lẫn baseline 180' của nhóm, vì baseline này chủ yếu dựa trên 2 cuộc phỏng vấn và đồ án của chính nhóm. Tôi sẽ phản biện mạnh hơn ở bảng 4 rủi ro: nhóm chấm Usability là "Thấp" dù chưa ai thử đọc một sơ đồ Call-Graph do AI sinh ra, và Viability cũng "Thấp" trong khi giả định #5 (công ty cho phép đưa code lên AI) chưa được kiểm chứng. Tôi cũng sẽ hỏi rõ cách đo ngưỡng 15% hallucinate trong Kill Switch: tính trên số node trong sơ đồ hay trên số sơ đồ.
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+Vấn đề của nhóm là dev mới khi nhận repo lạ mất khoảng 3 tiếng mới bắt đầu được task đầu tiên và phải hỏi mentor nhiều lần. Trong quy trình 7 bước, bottleneck nằm ở bước đọc code và trace luồng giữa các tầng Route → Controller → Service → DB, mất khoảng 60 phút. Metric là giảm thời gian trace từ 60' xuống ≤ 25', tổng thời gian từ 180' xuống ≤ 90', và số lần hỏi mentor từ 3–4 xuống ≤ 1 lần/task. Boundary là AI không được viết code, chỉ được sinh sơ đồ Call-Graph có trích dẫn filepath:linenumber, và dev phải tự đặt breakpoint xác minh trước khi code. Nhóm chọn mức AI Workflow: script AST lọc file trước, rồi LLM trace luồng cho đúng một use-case, vì No AI chỉ cho tài liệu tĩnh, Rule chỉ thấy quan hệ import, còn Agent tự sửa code thì quá rủi ro. Nếu AI vẽ sai, dev chuyển sang Call Hierarchy trong IDE và pair 10 phút với mentor. Quyết định là Go với pilot nhỏ trên 2 repo mẫu và 3 bạn sinh viên trong 1 tuần, dừng ngay nếu tỷ lệ hallucinate trên 15% hoặc thời gian không giảm được ít nhất 40 phút.
 ---
 
 ## 7. Tài liệu tham khảo
-
+Cursor, Codebase Indexing & Semantic Search, cursor.com · docs.cursor.com.
+GitHub, GitHub Copilot và Using GitHub Copilot Chat in your IDE, github.com/features/copilot · docs.github.com/copilot.
+Mintlify, Auto Documentation, mintlify.com.
+Rob Fitzpatrick (2013), The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you, momtestbook.com (dùng khi nhóm phỏng vấn kiểm chứng ở CP4.)
+Simon Brown, The C4 model for visualising software architecture, c4model.com (đây là phương án No AI (sơ đồ kiến trúc tĩnh) trong quy trình tương lai.)
 -
