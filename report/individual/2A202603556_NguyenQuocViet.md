@@ -141,16 +141,16 @@ HIỆN TẠI — 20–60 phút cho một lỗi khó (ước tính)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch ý tưởng trợ lý AI gỡ lỗi cho sinh viên lập trình; đặt câu hỏi làm sao giúp người học hiểu lỗi thay vì phụ thuộc hoàn toàn vào AI. | Nhóm có câu hỏi cụ thể để phản biện giá trị học tập và nguy cơ phụ thuộc AI. |
+| Phản biện bài của bạn khác | Chưa cung cấp câu hỏi phản biện tôi đã đặt. | Cần bổ sung nếu có tham gia phản biện candidate của thành viên khác. |
+| Nhận phản biện | AI lưu ý lịch/nhắc hạn và bảng nhiệm vụ có thể đủ; mã sửa sẵn có thể khiến sinh viên chép mà không hiểu. | Tôi đồng ý cả ba điểm; bổ sung yêu cầu đo baseline, so sánh phương án đơn giản trước, và giữ tiêu chí hỗ trợ học tập. |
+| Gom cluster / cây OST | Phần này do nhóm trưởng chủ trì; tôi chưa cung cấp đóng góp riêng ở bước gom cluster/OST. | Nhóm gom 12 candidate thành 3 cluster và dựng cây OST; cần bổ sung đóng góp cá nhân cụ thể nếu có. |
+| Chọn candidate problem | Nhóm chọn bài toán giúp người mới hiểu cấu trúc và luồng xử lý codebase; tôi chưa nêu phần việc cá nhân trong quyết định chọn. | Candidate nhóm được chọn làm cơ sở cho kiểm chứng và thiết kế giải pháp. |
+| Kiểm chứng / research | Chạy quick-poll với 8 sinh viên; 7/8 (87,5%) cho biết gặp khó khăn khi trace luồng code qua nhiều file. | Có tín hiệu định lượng ban đầu ủng hộ vấn đề; mẫu nhỏ, thuận tiện, cần ghi cách hỏi và tránh khái quát cho mọi sinh viên. |
+| Quy trình nhóm | Phần vẽ quy trình do Hoàng Gia Khiêm phụ trách; tôi chưa nêu đóng góp trực tiếp vào hai sơ đồ. | Nhóm có hai sơ đồ Mermaid cho quy trình hiện tại 180 phút và quy trình tương lai 90 phút, cùng fallback. |
+| Problem Statement | Phần soạn v0/v1 do nhóm trưởng phụ trách; tôi chưa nêu đóng góp trực tiếp. | Bài toán nhóm dùng mục tiêu onboarding 180 → 90 phút, hỏi mentor ≤ 1 lần và boundary không để AI tự viết code. |
+| Mức can thiệp AI | Soạn AI Canvas, trả lời hai câu hỏi Google PAIR và viết bốn tiêu chí Eval: Grounding, Accuracy, Latency, Completeness. | Cụ thể hóa cách đánh giá; các ngưỡng và bộ dữ liệu kiểm tra cần được ghi trong báo cáo nhóm. |
+| Quyết định | Nhóm trưởng chốt Go pilot trên 2 repo; tôi phụ trách kiểm chứng/eval, không phải người chốt quyết định. | Ngưỡng dừng nhóm nêu: hallucination >15% hoặc mức giảm thời gian <40 phút thì dừng. |
 
 ---
 
@@ -158,12 +158,12 @@ HIỆN TẠI — 20–60 phút cho một lỗi khó (ước tính)
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Nhờ AI sắp xếp và diễn đạt sáu vấn đề do tôi tự cung cấp theo mẫu Job Story; không nhờ AI tạo vấn đề cá nhân. | Giúp chuẩn hóa câu chữ và gắn từng vấn đề với actor, bối cảnh và dấu hiệu. | AI không thể xác nhận các trải nghiệm hoặc số liệu của tôi. | Giữ các ví dụ tôi cung cấp; đánh dấu số liệu chưa đo và không bổ sung vấn đề do AI bịa. |
+| CP2 Problem Card | Nhờ AI phản biện ba card. | Chỉ ra rằng lịch/nhắc hạn hoặc bảng nhiệm vụ có thể đủ, và trợ lý gỡ lỗi có thể khiến người học chép đáp án. | Các nhận xét là giả thuyết phản biện, không tự chứng minh giải pháp nào hiệu quả. | Tôi đồng ý cả ba; thêm yêu cầu đo baseline, so sánh phương án đơn giản và giữ mục tiêu học tập. |
+| CP4 Research | Chưa cung cấp thông tin về việc dùng AI ở checkpoint này. | Chưa ghi nhận. | Chưa ghi nhận. | Cần bổ sung sau khi xác nhận cách nhóm thực hiện poll/phỏng vấn và research. |
+| CP5 Quy trình | Chưa cung cấp thông tin về việc dùng AI ở checkpoint này; hai sơ đồ Mermaid do Hoàng Gia Khiêm phụ trách. | Chưa ghi nhận. | Chưa ghi nhận. | Chưa ghi nhận đóng góp dùng AI cá nhân ở checkpoint này. |
+| CP5–6 Problem Statement | Chưa cung cấp thông tin về việc dùng AI ở checkpoint này; nhóm trưởng soạn v0/v1. | Chưa ghi nhận. | Chưa ghi nhận. | Chưa ghi nhận đóng góp dùng AI cá nhân ở checkpoint này. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI soạn tiêu chí đánh giá đầu ra. | Gợi ý khung tiêu chí để bắt đầu. | Tiêu chí ban đầu chung chung và cảm tính, ví dụ “sơ đồ dễ hiểu”. | Tự đổi thành tiêu chí kỹ thuật đo được: trích dẫn đúng `filepath:linenumber` và độ trễ ≤ 15 giây. |
 
 ---
 
