@@ -136,7 +136,7 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
+| Pitch Problem Card | Khi chuẩn bị họp kế hoạch nội dung tháng, tôi muốn có sẵn bảng tổng hợp bài viết đạt hiệu suất tốt nhất, để không phải mở từng bài trên HubSpot/Analytics kiểm tra | |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (Hỏi Linh) "Vấn đề này do người giao thiếu template hay do dev chưa chủ động research?"; (Hỏi Khiêm) "Tiêu chí bắt lỗi của sếp có định lượng thành rule rõ ràng được không hay phụ thuộc cảm tính?"; (Hỏi Việt) "Dùng bảng Kanban Trello/Notion kết hợp họp nhanh 10' có nhanh hơn là đợi AI điều phối không?"| |
 | Nhận phản biện | Câu hỏi tôi nhận được: "Buffer và Hootsuite đã hỗ trợ lên lịch đa kênh bằng Rule/API, AI tạo thêm giá trị gì ở đây?" (Việt #1); "Tại sao không bắt agency tự chạy checklist format/chính tả trước khi nộp mà Lead phải tốn 60' sửa thay? Lỗi quy trình hay cần AI?" (Linh #3); "Nếu số lượng comment ít (vài chục cái), dùng bảng tính Google Sheets filter có nhanh hơn không?" (Khiêm #6) | Tôi đã sửa gì: Đổi job story từ “lên lịch phân phối” sang “chuyển một bài gốc thành bản phù hợp từng kênh”. Như vậy AI nằm đúng chỗ, còn lên lịch giao cho Buffer; Bổ sung checklist bắt buộc nộp kèm bài, và coi đó là phương án không dùng AI làm mốc; Nếu dưới khoảng 50-100 comment thì dùng Sheets và gắn nhãn thủ công, không cần AI. AI có chỗ đứng khi số lượng lớn, nhiều nguồn, hoặc cần gom theo ý nghĩa (nhiều cách hỏi cùng một thắc mắc) thay vì từ khóa, nơi filter của Sheets không làm được.|
 | Kiểm chứng / research | Trực tiếp phỏng vấn 2 bạn sinh viên IT theo Mom Test, khai thác được tín hiệu phản bác: sinh viên sợ AI bịa hàm/file ảo làm tốn thêm 45' debug. | Thu thâp interview snapshot làm kiểm chứng cho các giải pháp đề ra. |
@@ -148,12 +148,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
+| CP1 Scan | Nhờ AI gợi ý thêm job story ngoài danh sách tự scan | Mở thêm một góc nhìn ngoài 8 ý đã có (chuyển ý tưởng thô sau họp thành outline) | Ý gợi ý giao gần như toàn bộ việc lập dàn ý cho AI, bỏ qua bước team review | Loại ý này; giữ 8 ý có dấu hiệu thật (tự bấm giờ, đếm từ Notion/Slack) |
+| CP2 Problem Card | Nhờ AI phản biện Problem Card, chỉ ra điểm yếu và đặt thêm câu hỏi về quy mô, quy trình, rủi ro | Buộc tôi kiểm tra lại số liệu ước lượng, so với phương án không AI, và nghĩ tới rủi ro kho dữ liệu cũ, người duyệt chủ quan | Một số phản biện chung chung hoặc không khớp card: "AI làm mất sáng tạo của tác giả" chỉ đúng một phần; "agency lười tư duy" không áp dụng vì agency vẫn phải nộp bản hoàn thiện | Bấm giờ thật 3 bài (55, 65, 60 phút); đặt boundary AI chỉ gợi ý lỗi logic, chính tả, SEO; giữ quy trình agency nộp bản hoàn thiện |
 | CP4 Research | | | | |
-| CP5 Quy trình | | | | |
+| CP5 Quy trình | Nhờ AI gợi ý cách chỉnh Card #1, #2, #3 sau 3 câu phản biện nhận được (Việt, Linh, Khiêm) | Chỉ ra cách tách bottleneck: copy/paste (giao Buffer) khác với viết lại theo kênh (AI); lỗi hình thức khác lỗi nội dung; ngưỡng comment để chọn Sheets hay AI | Gợi ý dựa trên phần tôi dán nên chưa thấy đủ các cột (metric, phương án không AI) và chưa có số liệu thật | Đổi job story Card #1 sang "chuyển một bài gốc thành bản phù hợp từng kênh"; bổ sung checklist bắt buộc làm mốc không AI; đặt ngưỡng 50-100 comment |
 | CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP6 Mức can thiệp / quyết định | 	Nhờ AI hỗ trợ so sánh 4 mức (No AI, Rule, Workflow, Agent) và dựng AI Canvas cho bài nhóm | Giúp liệt kê đủ 4 phương án và thành phần Canvas (Prediction, Judgment, Action, Outcome, Input, Feedback), nên tôi so sánh có hệ thống hơn | Dễ nghiêng về giải pháp phức tạp; chỉ số và lập luận cần bằng chứng thật (số phút 60 → 25 chưa gắn với đo đạc, "không phát sinh bug" là mục tiêu tuyệt đối) | Chọn Workflow kết hợp AST lọc file, không chọn Agent; chọn Augment dựa trên Snapshot #2; xác định báo nhầm tệ hơn bỏ sót nên bắt buộc trích dẫn filepath:linenumber, dev tự đặt breakpoint, có nhánh dự phòng (Call Hierarchy + pair 10' với mentor) |
 
 ---
 
