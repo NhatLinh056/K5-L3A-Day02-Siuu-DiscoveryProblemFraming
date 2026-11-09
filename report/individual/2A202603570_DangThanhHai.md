@@ -72,16 +72,16 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi nhận một bài viết blog dài 2.000 từ từ agency hoặc freelancer, tôi muốn nhanh chóng soát các lỗi diễn đạt, chuẩn hóa từ khóa SEO và kiểm tra văn phong, để duyệt bài đúng hạn |
+| Actor | Content Lead phụ trách kiểm duyệt nội dung đầu ra |
+| Thời điểm / bối cảnh | Giờ làm việc hàng ngày, khi nhận bản thảo (draft) từ các cộng tác viên |
+| Quy trình hiện tại (3–7 bước) | 1. Mở file bài viết trên Google Docs · 2. Đọc lướt để kiểm tra bố cục và thông điệp cốt lõi · 3. Soát từng đoạn để sửa lỗi ngữ pháp, chính tả, cách dùng từ chuyên ngành EdTech · 4. Đánh dấu các chỗ cần viết lại và gửi lại comment cho writer · 5. Đợi writer sửa và duyệt lần 2 |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3 và 4, thời gian đọc kỹ và viết nhận xét chi tiết: khoảng 50–60 phút/bài |
+| Impact (nếu không giải thì sao) | Khoảng 60 phút/bài, trung bình 3 bài/tuần (tổng 180 phút/tuần); nếu chậm trễ sẽ kéo lùi lịch lên sóng của cả đội |
+| Success metric (baseline → target) | Thời gian review giảm từ 60 phút xuống dưới 20 phút/bài, số lần writer phải sửa lại giảm xuống dưới 1 lần |
+| Phương án không dùng AI | Sử dụng checklist kiểm tra nhanh trên Google Docs + Grammarly: giúp bắt lỗi chính tả nhưng không kiểm tra được độ sâu chuyên môn ngành và văn phong thương hiệu |
+| Giả thuyết về AI (nếu có) | AI chạy custom prompt kiểm tra cấu trúc, scan lỗi chính tả, chấm điểm văn phong thương hiệu và tự động đề xuất câu văn thay thế; Content Lead chỉ cần đọc lướt và chấp thuận các gợi ý |
+| Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
@@ -93,16 +93,16 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi cần lên ý tưởng bài viết mới dựa trên thắc mắc thực tế, tôi muốn nhanh chóng tổng hợp và gom nhóm các câu hỏi, bình luận cũ của khách hàng trên các kênh social/blog, để không bỏ sót pain point |
+| Actor | Content Lead nghiên cứu thị trường và định hướng nội dung |
+| Thời điểm / bối cảnh | Đầu mỗi tuần hoặc trước các buổi họp brainstorm ý tưởng nội dung tháng |
+| Quy trình hiện tại (3–7 bước) | 1. Mở các file tổng hợp feedback hoặc cuộn thủ công tìm lịch sử chat trên Slack, nhóm Facebook · 2. Đọc qua hàng chục thread bình luận cũ · 3. Copy các ý chính ra một file nháp riêng · 4. Gom nhóm thủ công các câu hỏi trùng lặp |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1 và 2, việc tìm kiếm và lọc thủ công qua nhiều luồng thông tin tốn khoảng 30–45 phút mỗi lần thực hiện |
+| Impact (nếu không giải thì sao) | Thực hiện 2 lần/tuần, tốn khoảng 60–90 phút; việc tìm kiếm thủ công dễ khiến bỏ sót các nhóm insight quan trọng của khách hàng |
+| Success metric (baseline → target) | Thời gian tổng hợp giảm từ 45 phút xuống dưới 10 phút, số lượng ý tưởng nội dung khai thác từ feedback tăng gấp đôi |
+| Phương án không dùng AI | Tạo bảng Google Sheets phân loại thủ công từ đầu: tốn nhiều thời gian thiết lập ban đầu và khó duy trì cập nhật liên tục |
+| Giả thuyết về AI (nếu có) | AI kết nối dữ liệu bình luận/feedback, tự động gom nhóm thành các chủ đề (cluster) vấn đề lớn nhất theo tần suất xuất hiện |
+| Cảm nhận nhanh | Workflow hoặc Agent |
 
 Quy trình nháp hiện tại:
 
@@ -112,16 +112,17 @@ Quy trình nháp hiện tại:
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: Card #2
+- Vì sao: Đây là công việc lặp lại với tần suất cao (3 bài/tuần), chiếm nhiều thời gian trí óc nhất của Content Lead (đọc sâu, sửa lỗi tinh tế). Việc ứng dụng AI giúp tiết kiệm thời gian đáng kể mà vẫn đảm bảo được chất lượng đầu ra thông qua khâu kiểm duyệt của con người.
+- Câu hỏi muốn nhóm phản biện: "Làm thế nào để AI giữ được đúng brand voice (văn phong thương hiệu) chuyên nghiệp nhưng gần gũi của công ty B2B EdTech mà không bị biến bài viết thành máy móc, cứng nhắc?"
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
-
+| Baseline 60 phút/bài chỉ dựa trên ước lượng cảm tính | Đồng ý | Đã tiến hành bấm giờ thực tế trên 3 bài viết gần nhất: ghi nhận thời gian lần lượt là 55, 65 và 60 phút |
+| AI có thể làm mất đi tính sáng tạo độc bản của tác giả bài viết | Đồng ý một phần | Định hình lại ranh giới (boundary): AI chỉ đóng vai trò gợi ý sửa lỗi logic, chính tả và tối ưu từ khóa SEO, không viết lại toàn bộ nội dung gốc |
+| Rủi ro agency phụ thuộc hoàn toàn vào công cụ AI và lười tư duy | Không đồng ý | Giữ quy trình yêu cầu agency nộp bản thảo hoàn thiện, AI chỉ là lớp "bảo hiểm" cuối cùng trước khi xuất bản cho Content Lead |
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
