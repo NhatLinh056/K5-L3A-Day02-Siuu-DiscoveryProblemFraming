@@ -30,6 +30,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 8 |Pain từ người khác |Khi Sales Team cần các bài viết кей study/ebook để gửi cho khách hàng gấp, họ muốn tìm đúng file tài liệu nhanh nhất, để không làm gián đoạn cuộc tư vấn |Sales team, Content Lead |4/10 lần gần nhất Sales phải nhắn tin nhờ Content gửi lại link tài liệu trong giờ làm việc |
 | 9 |Tốn thời gian   |Khi cuối tháng, tôi muốn tổng hợp báo cáo hiệu suất nội dung (traffic, leads, engagement) từ 3 dashboard khác nhau vào 1 slide, để báo cáo Mkt Manager |Content Lead, Mkt Manager |Mỗi cuối tháng mất khoảng 2.5 tiếng làm slide báo cáo |
 | 10 |Lặp lại |Khi chuẩn bị viết bài Newsletter hàng tuần, tôi muốn tóm tắt lại 3 bài viết nổi bật nhất trong tuần, để gửi cho danh sách email đăng ký |Content Lead |Mất 15–20 phút mỗi sáng thứ Ba để tự viết lại bản tóm tắt |
+
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
 -
@@ -42,23 +43,23 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 |Lên lịch & phân phối bài viết tuần (#1) |Quy trình rõ, tốn thời gian, có baseline đo thật |Mức độ tối ưu khi tự động hóa hoàn toàn các kênh khác nhau? |
+| 2 |Review/soát lỗi bài viết từ agency (#3) |Pain thật, writer/agency và lead đều gặp |Chất lượng sửa lỗi của AI có giữ được văn phong thương hiệu (brand voice)? |
+| 3 |Tìm kiếm ý tưởng từ feedback/comment độc giả (#6) |Nhiều người đau, impact rộng |Phạm vi dữ liệu phân tích có bị quá tải không? |
 
 ### Problem Card #1
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
+| Job Story | Khi tới thứ Sáu hàng tuần, tôi muốn lên lịch và phân phối 10–12 bài viết lên Facebook, LinkedIn và Blog, để không phải đăng thủ công từng bài |
+| Actor | Content Lead phụ trách điều phối nội dung kênh truyền thông |
+| Thời điểm / bối cảnh | Sáu hàng tuần, trước khi kết thúc giờ làm việc để chuẩn bị cho tuần kế tiếp |
+| Quy trình hiện tại (3–7 bước) | 1. Xuất file nội dung từ Google Docs/Notion · 2. Đăng nhập Facebook Meta Business Suite · 3. Đăng nhập LinkedIn Pages · 4. Đăng nhập CMS Blog · 5. Copy/paste từng bài và chỉnh sửa hình ảnh/format (Bottleneck) · 6. Kiểm tra lại lịch hiển thị · 7. Thông báo hoàn tất lên Slack |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5, copy/paste và định dạng thủ công lên từng kênh: khoảng 40–50 phút, dễ bị nhầm lẫn link hoặc format |
+| Impact (nếu không giải thì sao) | Khoảng 95 phút/tuần cho 1 Content Lead; công ty có 2 Content Lead nên khoảng 190 phút/tuần; 3/4 tuần gần nhất lịch đăng bị trễ giờ cao điểm |
+| Success metric (baseline → target) | Tổng thời gian thực hiện giảm từ 95 phút xuống dưới 25 phút, tỷ lệ bài đăng đúng giờ đạt 100% |
+| Phương án không dùng AI | Sử dụng công cụ quản lý lịch (Buffer/Hootsuite) + Template cố định: giảm thời gian thao tác nhưng vẫn mất công chọn lọc và tải lên từng bài thủ công |
+| Giả thuyết về AI (nếu có) | AI tự động phân tích file nội dung, cắt nghĩa đoạn trích phù hợp cho từng nền tảng (Facebook/LinkedIn/Blog) và tự động đẩy qua API lên lịch; Content Lead review và duyệt một chạm trước khi xuất bản |
 | Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
 
 Quy trình nháp hiện tại:
