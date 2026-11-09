@@ -137,21 +137,9 @@ Quy trình nháp hiện tại:
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (Hỏi Linh) "Vấn đề này do người giao thiếu template hay do dev chưa chủ động research?"
-(Hỏi Khiêm) "Tiêu chí bắt lỗi của sếp có định lượng thành rule rõ ràng được không hay phụ thuộc cảm tính?"
-(Hỏi Việt) "Dùng bảng Kanban Trello/Notion kết hợp họp nhanh 10' có nhanh hơn là đợi AI điều phối không?"| |
-| Nhận phản biện | Câu hỏi tôi nhận được: 
-"Buffer và Hootsuite đã hỗ trợ lên lịch đa kênh bằng Rule/API, AI tạo thêm giá trị gì ở đây?" (Việt #1)
-"Tại sao không bắt agency tự chạy checklist format/chính tả trước khi nộp mà Lead phải tốn 60' sửa thay? Lỗi quy trình hay cần AI?" (Linh #3)
-"Nếu số lượng comment ít (vài chục cái), dùng bảng tính Google Sheets filter có nhanh hơn không?" (Khiêm #6)
-| Tôi đã sửa gì: 
-Đổi job story từ “lên lịch phân phối” sang “chuyển một bài gốc thành bản phù hợp từng kênh”. Như vậy AI nằm đúng chỗ, còn lên lịch giao cho Buffer.
-Bổ sung checklist bắt buộc nộp kèm bài, và coi đó là phương án không dùng AI làm mốc.
-Nếu dưới khoảng 50-100 comment thì dùng Sheets và gắn nhãn thủ công, không cần AI. AI có chỗ đứng khi số lượng lớn, nhiều nguồn, hoặc cần gom theo ý nghĩa (nhiều cách hỏi cùng một thắc mắc) thay vì từ khóa, nơi filter của Sheets không làm được.|
-
-
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (Hỏi Linh) "Vấn đề này do người giao thiếu template hay do dev chưa chủ động research?"; (Hỏi Khiêm) "Tiêu chí bắt lỗi của sếp có định lượng thành rule rõ ràng được không hay phụ thuộc cảm tính?"; (Hỏi Việt) "Dùng bảng Kanban Trello/Notion kết hợp họp nhanh 10' có nhanh hơn là đợi AI điều phối không?"| |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Buffer và Hootsuite đã hỗ trợ lên lịch đa kênh bằng Rule/API, AI tạo thêm giá trị gì ở đây?" (Việt #1); "Tại sao không bắt agency tự chạy checklist format/chính tả trước khi nộp mà Lead phải tốn 60' sửa thay? Lỗi quy trình hay cần AI?" (Linh #3); "Nếu số lượng comment ít (vài chục cái), dùng bảng tính Google Sheets filter có nhanh hơn không?" (Khiêm #6) | Tôi đã sửa gì: Đổi job story từ “lên lịch phân phối” sang “chuyển một bài gốc thành bản phù hợp từng kênh”. Như vậy AI nằm đúng chỗ, còn lên lịch giao cho Buffer; Bổ sung checklist bắt buộc nộp kèm bài, và coi đó là phương án không dùng AI làm mốc; Nếu dưới khoảng 50-100 comment thì dùng Sheets và gắn nhãn thủ công, không cần AI. AI có chỗ đứng khi số lượng lớn, nhiều nguồn, hoặc cần gom theo ý nghĩa (nhiều cách hỏi cùng một thắc mắc) thay vì từ khóa, nơi filter của Sheets không làm được.|
 | Kiểm chứng / research | Trực tiếp phỏng vấn 2 bạn sinh viên IT theo Mom Test, khai thác được tín hiệu phản bác: sinh viên sợ AI bịa hàm/file ảo làm tốn thêm 45' debug. | Thu thâp interview snapshot làm kiểm chứng cho các giải pháp đề ra. |
-
 | Quyết định | Phản biện 4 rủi ro (Value, Usability, Feasibility, Viability), đề xuất điều kiện pilot nhỏ và ngưỡng dừng. | Xác định được mô hình ứng dụng AI tối ưu và xây dựng được Khung kiến trúc, cùng chiến lược kiểm soát và quản lý rủi ro cho sản phẩm. |
 
 ---
