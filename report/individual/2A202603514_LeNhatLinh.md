@@ -147,18 +147,18 @@ HIỆN TẠI — 70 phút
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?                                                                                                                    | Kết quả / ảnh hưởng tới bài nhóm                                                                                          |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Pitch Problem Card         | Trình bày Problem Card #1: Tìm hiểu codebase mới khi tiếp nhận dự án (bottleneck đọc code hiểu luồng mất 60' trên 180' onboarding). | Nhóm đưa bài toán vào shortlist chấm điểm và thống nhất chọn làm candidate problem chính.                                  |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Liệu bài toán có đủ dữ liệu hành vi thực tế hay chỉ mới là giả định chủ quan?                                  | Giúp nhóm rà soát lại các candidate có số liệu đo lường cụ thể trước khi đưa vào cây OST.                                |
-| Nhận phản biện             | Câu hỏi tôi nhận được: Liệu chỉ cần cải thiện tài liệu onboarding và sơ đồ kiến trúc là đủ hay bắt buộc phải có AI?                | Tôi đã sửa: Bổ sung phương án viết docs chuẩn hóa vào phương án không dùng AI, giới hạn AI chỉ hỗ trợ trace luồng phức tạp. |
-| Gom cluster / cây OST      | Cùng nhóm phân loại candidate thành 3 cụm (Codebase, Quản lý Task, Báo cáo tiến độ) và dựng cây OST với Outcome chung.            | Cây OST rõ ràng, loại bỏ các solution trá hình và tập trung vào cơ hội giảm thời gian onboarding.                        |
-| Chọn candidate problem     | Tham gia chấm điểm shortlist 3 bài toán theo 7 tiêu chí và thảo luận lý do chọn/loại.                                             | Nhóm thống nhất 100% chọn bài toán tìm hiểu codebase.                                                                     |
-| Kiểm chứng / research      | Điều phối phân công phỏng vấn và trực tiếp research 2–3 giải pháp/công cụ hiện có trên thị trường.                                 | Tìm ra khoảng trống của các công cụ hiện tại để định hình phạm vi bài toán.                                              |
-| Quy trình nhóm             | Cùng nhóm vẽ quy trình hiện tại vs tương lai, xác định bottleneck và điểm chạm (HITL, Boundary).                                  | Đảm bảo quy trình tương lai có phương án quay về (fallback) an toàn khi AI xử lý sai.                                     |
-| Problem Statement          | Hỗ trợ viết và rà soát Problem Statement v0 và v1, chuẩn hóa Success Metric (baseline → target).                                 | Metric đo lường được bằng thời gian thực tế, boundary rõ ràng.                                                            |
-| Mức can thiệp AI           | Cùng nhóm so sánh 4 mức No AI / Rule / Workflow / Agent và điền AI Canvas rút gọn.                                               | Lập luận chặt chẽ vì sao chọn Workflow mà không chọn Agent phức tạp.                                                      |
-| Quyết định                 | Đánh giá 4 rủi ro (Value, Usability, Feasibility, Viability) và xây dựng ngưỡng dừng pilot.                                        | Đưa ra quyết định Go có điều kiện kèm ngưỡng dừng đo được.                                                                |
+| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
+| -------------------------- | ---------------------- | -------------------------------- |
+| Pitch Problem Card         |                        |                                  |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
+| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
+| Gom cluster / cây OST      |                        |                                  |
+| Chọn candidate problem     |                        |                                  |
+| Kiểm chứng / research      |                        |                                  |
+| Quy trình nhóm             |                        |                                  |
+| Problem Statement          |                        |                                  |
+| Mức can thiệp AI           |                        |                                  |
+| Quyết định                 |                        |                                  |
 
 ---
 
