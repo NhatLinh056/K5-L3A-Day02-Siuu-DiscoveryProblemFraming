@@ -21,10 +21,10 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
 | 1 | Cần đọc, tổng hợp nhiều thông tin | Khi ôn bài trước kỳ thi hoặc làm bài tập, tôi muốn tìm nhanh một công thức hay định nghĩa cụ thể, để tiếp tục học hoặc hoàn thành bài. | Sinh viên | Vài lần mỗi tuần; đôi khi mất 10–20 phút tìm trong slide và PDF. |
-| 2 | Lặp lại | Khi có nhiều bài tập ở các môn với hạn nộp khác nhau, tôi muốn sắp xếp công việc và hạn nộp, để hoàn thành mọi bài đúng hạn. | Sinh viên học nhiều môn | Xảy ra gần như mỗi tuần; đôi khi quên bài nhỏ hoặc phát hiện hạn nộp muộn. Chưa có số lần cụ thể. |
+| 2 | Lặp lại | Khi có nhiều bài tập ở các môn với hạn nộp khác nhau, tôi muốn sắp xếp công việc và hạn nộp, để hoàn thành mọi bài đúng hạn. | Sinh viên học nhiều môn | Xảy ra gần như mỗi tuần; trong 4 tuần gần nhất tôi ước tính quên hoặc nộp trễ khoảng 2 bài nhỏ. Hạn nằm rải rác trong nhóm chat lớp, LMS và ghi chú điện thoại. |
 | 3 | Tốn thời gian; pain từ người khác | Khi làm bài nhóm với 3–5 bạn cùng lớp, tôi muốn chia việc và theo dõi tiến độ, để mọi thành viên hiểu trách nhiệm của mình. | Tất cả thành viên nhóm | Hầu hết bài tập nhóm; dành khoảng 15–30 phút thảo luận phân công; đôi khi thành viên hiểu khác nhau về trách nhiệm. |
 | 4 | Tốn thời gian | Khi làm bài lập trình bằng Python, Java hoặc ngôn ngữ khác, tôi muốn tìm nguyên nhân và sửa lỗi nhanh, để hoàn thành bài và dành thời gian hiểu nội dung khác. | Sinh viên học lập trình, lập trình viên | Vài lần mỗi tuần; một lỗi cú pháp hoặc logic nhỏ có thể mất 20–60 phút để tìm. |
-| 5 | Tốn thời gian | Khi giảng viên trình bày khái niệm nhanh, tôi muốn ghi lại ý chính mà vẫn theo kịp bài giảng, để không bỏ lỡ nội dung quan trọng. | Sinh viên | Vài lần mỗi tuần; đôi khi bỏ lỡ ý mới vì còn đang ghi phần trước. Chưa đo thời lượng hoặc số lần bỏ lỡ. |
+| 5 | Tốn thời gian | Khi giảng viên trình bày khái niệm nhanh, tôi muốn ghi lại ý chính mà vẫn theo kịp bài giảng, để không bỏ lỡ nội dung quan trọng. | Sinh viên | Khoảng 3 buổi/tuần; ước tính bỏ lỡ 2–3 ý quan trọng mỗi tuần vì còn ghi phần trước, giảng nhanh hoặc chép lại nội dung đã có trên slide. |
 | 6 | Tốn thời gian | Khi chuẩn bị thi hoặc làm bài khó, tôi muốn tìm bạn học cùng môn và có lịch phù hợp, để có thể học tập cộng tác. | Sinh viên muốn học cùng người khác | Vài lần mỗi học kỳ; có thể mất vài ngày tìm người có lịch phù hợp. |
 
 **Nếu có dùng AI để gợi ý thêm:** Sáu vấn đề trên do Việt cung cấp. AI hỗ trợ sắp xếp và diễn đạt theo mẫu Job Story; chưa có ý tưởng bổ sung nào được giữ lại hoặc loại bỏ.
@@ -49,11 +49,11 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 |---|---|
 | Job Story | Khi nhiều môn giao bài với các hạn khác nhau, tôi muốn tổ chức công việc và theo dõi hạn nộp, để hoàn thành bài đúng hạn. |
 | Actor | Sinh viên, nhất là người học nhiều môn cùng lúc. |
-| Thời điểm / bối cảnh | Gần như mỗi tuần khi nhận thông báo bài tập từ giảng viên và các nền tảng/nhóm lớp khác nhau. |
+| Thời điểm / bối cảnh | Gần như mỗi tuần khi nhận thông báo từ giảng viên qua nhóm chat lớp, LMS và các nguồn khác; hiện ghi thêm vào ghi chú điện thoại nhưng chưa có một nơi quản lý thống nhất. |
 | Quy trình hiện tại (3–7 bước) | 1. Nhận thông tin bài tập từ giảng viên. 2. Kiểm tra hạn trên nền tảng học tập hoặc nhóm lớp. 3. Ghi hạn vào ghi chú hoặc lịch. 4. Xếp thứ tự ưu tiên. 5. Làm bài. 6. Kiểm tra và nộp trước hạn. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Tổng hợp và nhớ hạn từ nhiều nền tảng; Việt ước tính mất khoảng 10–15 phút mỗi tuần, chưa tính thời gian/hậu quả khi quên bài. Chưa tách thời gian từng bước. |
 | Impact (nếu không giải thì sao) | Có thể nộp trễ, giảm điểm, căng thẳng và quản lý thời gian kém. |
-| Success metric (baseline → target) | Baseline hiện biết: đôi khi quên bài nhỏ hoặc phát hiện hạn muộn; chưa có tỷ lệ cụ thể. Target: 100% bài tập được ghi nhận và nộp đúng hạn. Đo bằng cách đối chiếu danh sách bài tập với nền tảng môn học và thời điểm nộp trong một giai đoạn theo dõi; cần bổ sung baseline bằng số liệu. |
+| Success metric (baseline → target) | Baseline ước tính: quên hoặc nộp trễ khoảng 2 bài nhỏ trong 4 tuần gần nhất. Target: 0 bài quên/trễ; 100% bài được ghi nhận và nộp đúng hạn trong 4 tuần theo dõi. Đo bằng cách đối chiếu danh sách trên nhóm chat/LMS/ghi chú với trạng thái và thời điểm nộp. |
 | Phương án không dùng AI | Google Calendar, ứng dụng quản lý công việc, nhắc hạn tự động hoặc bảng tính chung để ghi hạn. |
 | Giả thuyết về AI (nếu có) | Trợ lý học tập đọc mô tả bài tập, trích hạn nộp, phân loại ưu tiên và gợi ý lịch học theo tuần. |
 | Cảm nhận nhanh | Rule / Workflow; cần so sánh với lịch và nhắc hạn thông thường trước khi quyết định có cần AI. |
@@ -160,9 +160,9 @@ HIỆN TẠI — 20–60 phút cho một lỗi khó (ước tính)
 |---|---|---|---|---|
 | CP1 Scan | Nhờ AI sắp xếp và diễn đạt sáu vấn đề do tôi tự cung cấp theo mẫu Job Story; không nhờ AI tạo vấn đề cá nhân. | Giúp chuẩn hóa câu chữ và gắn từng vấn đề với actor, bối cảnh và dấu hiệu. | AI không thể xác nhận các trải nghiệm hoặc số liệu của tôi. | Giữ các ví dụ tôi cung cấp; đánh dấu số liệu chưa đo và không bổ sung vấn đề do AI bịa. |
 | CP2 Problem Card | Nhờ AI phản biện ba card. | Chỉ ra rằng lịch/nhắc hạn hoặc bảng nhiệm vụ có thể đủ, và trợ lý gỡ lỗi có thể khiến người học chép đáp án. | Các nhận xét là giả thuyết phản biện, không tự chứng minh giải pháp nào hiệu quả. | Tôi đồng ý cả ba; thêm yêu cầu đo baseline, so sánh phương án đơn giản và giữ mục tiêu học tập. |
-| CP4 Research | Chưa cung cấp thông tin về việc dùng AI ở checkpoint này. | Chưa ghi nhận. | Chưa ghi nhận. | Cần bổ sung sau khi xác nhận cách nhóm thực hiện poll/phỏng vấn và research. |
-| CP5 Quy trình | Chưa cung cấp thông tin về việc dùng AI ở checkpoint này; hai sơ đồ Mermaid do Hoàng Gia Khiêm phụ trách. | Chưa ghi nhận. | Chưa ghi nhận. | Chưa ghi nhận đóng góp dùng AI cá nhân ở checkpoint này. |
-| CP5–6 Problem Statement | Chưa cung cấp thông tin về việc dùng AI ở checkpoint này; nhóm trưởng soạn v0/v1. | Chưa ghi nhận. | Chưa ghi nhận. | Chưa ghi nhận đóng góp dùng AI cá nhân ở checkpoint này. |
+| CP4 Research | Dùng AI để gợi ý hướng research và các khó khăn phổ biến của sinh viên. | Giúp mở rộng hướng tìm hiểu ban đầu. | Một số thông tin chung chung, chưa gắn với trải nghiệm thật hoặc nguồn cụ thể. | Xem xét lại và tập trung vào vấn đề thực tế; không dùng gợi ý chung làm bằng chứng. |
+| CP5 Quy trình | Dùng AI để gợi ý các bước của quy trình hiện tại và sắp xếp thứ tự. | Giúp tạo bản nháp trình tự để nhóm rà soát. | Một số bước chưa khớp cách sinh viên thật sự làm. | Tự chỉnh các bước để phản ánh quy trình thực tế và đóng góp vào hai sơ đồ trước/sau. |
+| CP5–6 Problem Statement | Dùng AI để hỗ trợ diễn đạt Problem Statement. | Giúp làm câu chữ rõ và dễ đọc hơn. | Bản đầu quá rộng, chưa rõ actor, vấn đề và kết quả mong muốn. | Thu hẹp đối tượng, vấn đề chính và outcome; nhóm trưởng chịu trách nhiệm soạn bản cuối. |
 | CP6 Mức can thiệp / quyết định | Nhờ AI soạn tiêu chí đánh giá đầu ra. | Gợi ý khung tiêu chí để bắt đầu. | Tiêu chí ban đầu chung chung và cảm tính, ví dụ “sơ đồ dễ hiểu”. | Tự đổi thành tiêu chí kỹ thuật đo được: trích dẫn đúng `filepath:linenumber` và độ trễ ≤ 15 giây. |
 
 ---
@@ -173,17 +173,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Qua quá trình thực hiện bài tập, tôi nhận ra rằng việc xác định đúng vấn đề quan trọng hơn việc nghĩ ra một ý tưởng công nghệ thật thú vị. Ban đầu, tôi thường nghĩ đến việc sử dụng AI để giải quyết các vấn đề trong học tập. Tuy nhiên, sau khi phân tích các tình huống thực tế, tôi nhận thấy cần hiểu rõ người dùng đang gặp khó khăn gì và tại sao vấn đề đó xảy ra.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Vấn đề tôi quan tâm nhất là việc quản lý deadline và debugging trong lập trình. Đây là những vấn đề tôi có thể gặp thường xuyên trong quá trình học tập. Khi có nhiều môn học và bài tập cùng lúc, tôi đôi khi gặp khó khăn trong việc sắp xếp thời gian. Ngoài ra, khi lập trình, tôi thường mất nhiều thời gian để đọc lỗi và tìm nguyên nhân khiến chương trình không hoạt động như mong muốn.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Tôi nhận thấy việc đo lường vấn đề bằng các con số rất quan trọng. Thay vì chỉ nói rằng một công việc mất nhiều thời gian, tôi có thể ước tính thời gian thực hiện, số lần xảy ra và mức độ ảnh hưởng. Ví dụ, một lỗi lập trình có thể khiến tôi mất khoảng 20–30 phút để tìm nguyên nhân. Những số liệu này giúp tôi đánh giá vấn đề rõ ràng hơn và xác định mục tiêu cải thiện phù hợp.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Trong quá trình tìm giải pháp, tôi nhận ra không phải vấn đề nào cũng cần sử dụng AI. Một số vấn đề có thể được giải quyết bằng những công cụ thông thường như Google Calendar, Notion, Trello hoặc các chức năng có sẵn trong IDE. Những giải pháp này thường đơn giản, dễ sử dụng và ít tốn chi phí hơn. Vì vậy, cần cân nhắc giải pháp không sử dụng AI trước khi quyết định tích hợp AI.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+AI có thể hỗ trợ tốt trong việc phân tích thông tin, giải thích lỗi lập trình và đề xuất giải pháp. Tuy nhiên, AI không phải lúc nào cũng đưa ra câu trả lời chính xác. Đôi khi AI có thể hiểu sai yêu cầu hoặc đề xuất đoạn code không phù hợp với chương trình hiện tại. Vì vậy, tôi cần kiểm tra kết quả, chạy thử chương trình và tự đánh giá trước khi sử dụng.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Qua bài tập này, tôi học được cách tiếp cận vấn đề có hệ thống hơn. Tôi hiểu rằng một ý tưởng tốt cần xuất phát từ nhu cầu thực tế, có quy trình rõ ràng và có các chỉ số để đánh giá hiệu quả. Tôi cũng nhận ra rằng AI chỉ nên được sử dụng khi nó thực sự mang lại giá trị tốt hơn so với những giải pháp đơn giản khác. Trong tương lai, tôi muốn cải thiện kỹ năng phân tích vấn đề và xây dựng các giải pháp có tính ứng dụng thực tế.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+*Việt cần tự viết câu trả lời cho bài toán nhóm về onboarding codebase. Bản nháp hiện tại nói về trợ lý AI gỡ lỗi cá nhân, không khớp candidate nhóm đã chọn.*
 
 ---
 
