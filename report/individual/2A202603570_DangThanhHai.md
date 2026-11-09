@@ -188,6 +188,7 @@ Kết quả kiểm chứng thực tế qua phỏng vấn The Mom Test với sinh
 - Tôi sẽ phản biện mạnh hơn về rủi ro khi áp dụng giải pháp cho các hệ thống mã nguồn lớn sử dụng kiến trúc hướng sự kiện (Event-Driven / Message Queue như Kafka, RabbitMQ) hoặc mã nguồn chất lượng kém ("spaghetti code"). Ở các trường hợp này, parser AST khó phân tích luồng chính xác và AI rất dễ gặp lỗi timeout hoặc hallucinate. Do đó, tôi sẽ kiến nghị bổ sung điều kiện tiên quyết (Prerequisite) về cấu trúc mã nguồn trước khi cho phép AI Workflow can thiệp.
   
 **6.7. Hiểu bài: giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.**
+
 Bài nhóm giải quyết vấn đề Developer mới mất đến 60 phút lội qua hàng chục file code để trace luồng xử lý chính khi nhận task đầu tiên. Quy trình 7 bước được cải tiến nhờ tích hợp script AST quét định vị module ở Bước 3 (Rule), AI trích xuất sơ đồ Call-Graph ở Bước 4 (AI Workflow) và dev đặt breakpoint debug kiểm chứng ở Bước 5 (HITL). Success Metric đo lường việc giảm thời gian trace luồng từ 60' xuống ≤ 25', tổng thời gian onboarding giảm từ 180' xuống ≤ 90' (giảm 50%) và số lần hỏi mentor giảm từ 3–4 lần xuống ≤ 1 lần/task. Boundary quy định cứng: AI không tự viết code, phải trích dẫn chính xác, dev phải breakpoint xác minh và có nhánh Fallback quay về Call Hierarchy IDE nếu AI gợi ý sai. Nhóm lựa chọn mức can thiệp AI Workflow tại duy nhất Bước 4 vì mã nguồn có ngữ pháp xác định (AST) nhưng cần AI suy luận ngữ cảnh use-case, tránh mức Agent quá phức tạp.
 
 ---
