@@ -153,6 +153,8 @@ Cách đã dùng: **Phỏng vấn trực tiếp 2 bạn sinh viên IT (theo nguy
 
 Sơ đồ Mermaid quy trình hiện tại (Tổng thời gian: **180 phút**):
 
+*Nguồn baseline: Lê Nhật Linh tự bấm giờ trong đồ án trước; nhóm sẽ đo lại quy trình trên 2 repo pilot để xác nhận mốc này.*
+
 ```mermaid
 flowchart LR
     A["1. Nhận repo & task: 5'"] --> B["2. Đọc README & setup: 15'"]
